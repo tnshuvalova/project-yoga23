@@ -1,0 +1,107 @@
+================================== */
+
+/* Zero down margin and paddin on all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Lucida Grande", sans-serif, serif;
+  color: #333;
+  font-size: 11pt;
+  line-height:1.5em;
+  background-color:#D4D4D4;
+  background: url(images/Bg-BA2C00.jpg) no-repeat fixed #DACEC2;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.0em;
+  font-weight: normal;
+}
+
+p, li {
+  font-size: 11pt;
+}
+
+h1, h2, p {
+  margin: 1em 0;
+}
+
+.branding h1 {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+
+.header {
+  height: 133px;
+  background-color:#b0b0b0;
+  background: url("images/header-bg.jpg");
+  background-size: 100% 100%; 
+  padding: 5px;
+  padding-bottom: 2px;
+}
+
+.nav {
+  list-style: none;
+  background-color:#eee;
+  padding: 20px;
+}
+
+.content .secondary .promo {
+	padding-left: 20px;
+}
+
+.footer {
+  background-color:#1D1E1E;
+  padding: 3px 20px 0 0;
+  text-align: center;
+}
+
+/* The Core Technique
+================================= */
+
+body {
+  text-align: center; 
+  min-width: 960px;
+}
+                                                                                                                                                                                                
+.wrapper {
+  width: 81%; 
+  margin: 0 auto; 
+  text-align: left;
+}
+
+.content {
+	overflow: hidden;
+}
+
+.content .primary { 
+  width: 72.82%;
+  float: right;
+}
+
+.content .secondary { 
+  width: 25%;
+  float: left; 
+} 
+
+
+.content .primary .primary {
+	width: 59.7%;
+	float: left;
+}
+
+.content .primary .secondary {
+	width: 34.33%;
+	padding-right: 2.63%;
+	float: right;
+}
