@@ -1,0 +1,59 @@
+{
+    "Alexandr Zatolochny": {
+        "experience": "10 years",
+        "level": "Expert",
+        "city": "Kiev",
+		"schedule": {
+            "28/01/2014": {
+                "time": "14.00-16.00",
+                "hall": "big"
+            },
+            "29/01/2014": {
+                "time": "9.15-10.45",
+                "hall": "big"
+            },
+            "30/01/2014": {
+                "time": "14.00-16.00",
+                "hall": "big"
+            }
+        }
+    },
+    "Ludmila Zabalkanskaya": {
+        "experience": "15 years",
+        "level": "Expert",
+        "city": "Kiev",
+        "schedule": {
+            "10/02/2014": {
+                "time": "10.00-11.00",
+                "hall": "big"
+            },
+            "11/02/2014": {
+                "time": "12.15-13.45",
+                "hall": "big"
+            },
+            "12/02/2014": {
+                "time": "14.00-15.00",
+                "hall": "big"
+            }
+        }
+    },
+    "Irina Vorontsova": {
+        "experience": "8 years",
+        "level": "Expert",
+        "city": "Kiev",
+        "schedule": {
+            "15/02/2014": {
+                "time": "19.00-20.20",
+                "hall": "big"
+            },
+            "16/02/2014": {
+                "time": "19.00-20.20",
+                "hall": "big"
+            },
+            "17/02/2014": {
+                "time": "19.00-20.20",
+                "hall": "big"
+            }
+        }
+    },        
+}

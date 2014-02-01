@@ -33,12 +33,17 @@ h1, h2, p {
   margin: 1em 0;
 }
 
-.branding h1 {
-  margin: 0;
+.wrapper {
+  width: 76.8%; 
+  margin: 0 auto; 
+  text-align: left;
+  max-width: 125em;
+  min-width: 76em;
+  background: #fff url("images/secondary-faux-col.gif") repeat-y 25% 0;
 }
 
-.wrapper {
-  background-color: #fff;
+.inner-wrapper {
+	background: url("images/primary-faux-col.gif") repeat-y 71.73% 0;
 }
 
 .header {
@@ -52,13 +57,101 @@ h1, h2, p {
 
 .nav {
   list-style: none;
-  background-color:#eee;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+  background-color: #CCCCCC;
+  border: 1px solid #5C5C5C;
+  /*background-color:#ffffff;
+  padding-left: 20px;
+  /*border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;*/
 }
 
-.content .secondary .promo {
-	padding-left: 20px;
+/*.nav a{
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #8A8A8A;
+  background: url("images/arrow.gif") no-repeat 5% 50%;
+  padding: 0.3em 1em;
+}*/
+ 
+/*#menu {
+  width: 200px;
+  margin: 10px;
+  }*/
+ 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+img {
+  border: none;
+}
+ 
+ul#sliding-navigation
+{
+  list-style: none;
+  font-size: .75em;
+  margin: 30px 0;
+  padding: 0;
+}
+
+ul#sliding-navigation li.sliding-element h3,
+ul#sliding-navigation li.sliding-element a
+{
+  display: block;
+  width: 150px;
+  padding: 5px 18px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+ul#sliding-navigation li.sliding-element h3
+{
+  color: #fff;
+  background:#333 url(heading_bg.jpg) repeat-y;
+  font-weight: normal;
+}
+
+ul#sliding-navigation li.sliding-element a
+{
+  color: #999;
+  background:#222 url(tab_bg.jpg) repeat-y;
+  border: 1px solid #1a1a1a;
+  text-decoration: none;
+}
+
+ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; } 
+/*.nav {
+  width: 200px;
+  margin: 10px;
+  border: none;
+}
+  
+.nav li a {
+  height: 32px;
+  height: 24px;
+  text-decoration: none;
+} 
+  
+.nav li a:link, .nav li a:visited {
+  color: #FFF;
+  display: block;
+  background:  url("images/menu.gif");
+  padding: 8px 0 0 35px;
+}
+  
+.nav li a:hover {
+  color: #FFF;
+  background:  url("images/menu.gif") 0 -32px;
+  padding: 8px 0 0 35px;
+}*/
 
 .footer {
   background-color:#1D1E1E;
@@ -73,13 +166,7 @@ body {
   text-align: center; 
   min-width: 960px;
 }
-                                                                                                                                                                                                
-.wrapper {
-  width: 81%; 
-  margin: 0 auto; 
-  text-align: left;
-}
-
+                                                                                                                                                                                               
 .content {
 	overflow: hidden;
 }
@@ -92,16 +179,23 @@ body {
 .content .secondary { 
   width: 25%;
   float: left; 
+  padding-left: 1%; 
 } 
 
 
 .content .primary .primary {
 	width: 59.7%;
 	float: left;
+	padding: 10px;
 }
 
 .content .primary .secondary {
 	width: 34.33%;
-	padding-right: 2.63%;
+	padding-right: 1.63%;
 	float: right;
+}
+
+.box{
+	border-color: #333;
+	border-width: 2px;
 }

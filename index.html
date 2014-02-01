@@ -4,10 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Yoga23-studio schedule</title>
 <link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="sliding_effect.js"></script>
 </head>
 
 <body>
 <div class="wrapper">
+<div class="inner-wrapper">
 <div class="header">
 <img src="images/Logo-BA2C00.png">
 <h1 style="text-align:right;">Teacher's personal scedule</h1>
@@ -19,7 +23,7 @@
 
 <div class="primary">
 
-<h1>О студии</h1>
+<h3>О студии</h3>
 <p>YОГА-студия Андрея Сидерского — крупнейшая йога-студия в Украине и Восточной Европе. С момента своего открытия в 2005 году студия стала самым известным местом сосредоточения людей, которым не безразлично свое здоровье, внешний вид, а также духовное и физическое развитие.</p>
 
 <p>Киевская студия Андрея Сидерского в своих стенах объединила самые эффективные и популярные, в начале ХХІ века, системы физического и духовного самосовершенствования. Вы можете посещать различные классы по йоге и цигун — древнейшей системе психо-физических практик. Спектр занятий и количество классов в студии не оставит равнодушным никого. Здесь вы сможете начать практику «с нуля», если вы только начинаете знакомство с миром восточных физических практик, либо улучшить уже имеющийся уровень подготовки. Групповые занятия сочетаются с возможностью персональной практики вместе с инструктором, а также с возможностью разработки персональных тренировочных алгоритмов, которые окажутся наименее травмоопасными и наиболее подходящими для вас, в случае если принято решение заниматься самостоятельно дома.</p>
@@ -37,7 +41,7 @@
 
 <div class="secondary">
 
-<h2>Choose the teacher</h2>
+<h3>Choose the teacher:</h3>
 <p>Magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
@@ -45,19 +49,21 @@
 
 </div>
 
-<div class="secondary">
-<ul class="nav"> 
-<li class="first"><a href="#">Home</a></li> 
-<li><a href="#">Teachers</a></li> 
-<li><a href="#">Classes</a></li> 
-<li><a href="#">News</a></li> 
-<li><a href="#">Contacts</a></li> 
-</ul>
+<!--<div class="secondary">
+<h3>Select the mode:</h3>
+	<ul class="nav" id="sliding-navigation"> 
+		<li class="first"><a href="#">Schedule</a></li> 
+		<li><a href="#">Info</a></li> 
+	</ul>
+</div>-->
 
-<div class="promo">
-<p>Promo item goes here</p>
-</div>
-
+<div id="navigation-block">
+    <ul id="sliding-navigation">
+        <li class="sliding-element"><a href="#">Schedule</a></li>
+        <li class="sliding-element"><a href="#">Info</a></li>
+        <li class="sliding-element"><a href="#">Personal program</a></li>
+        <li class="sliding-element"><a href="#">Contacts</a></li>
+    </ul>
 </div>
 
 </div>
@@ -66,7 +72,7 @@
 <img src="images/LogoInFoot-BA2C00.png">
 </div>
 
-
+</div>
 </div>
 </body>
 </html>
